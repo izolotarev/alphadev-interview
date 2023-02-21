@@ -1,0 +1,28 @@
+.forum {
+  background-color: $color-dark;
+  padding: 68px;
+  background-image: url("../../assets/img/unsplash_e4uXd7vMoxU.jpg");
+  background-repeat: no-repeat;
+  background-position: 95% 0%;
+}
+
+.forum__heading-main {
+  margin-bottom: 20px;
+}
+
+.forum__heading-sec {
+  width: 740px;
+  margin-bottom: 80px;
+}
+
+.forum__description {
+  width: 955px;
+  margin-bottom: 24px;
+
+  @extend %font-sec;
+  @include font($size: 2rem, $height: 2.6rem, $weight: 300);
+}
+
+.forum__tooltip {
+  margin-bottom: 154px;
+}

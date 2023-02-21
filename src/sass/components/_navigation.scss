@@ -1,0 +1,28 @@
+.navigation__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation__item {
+  list-style: none;
+
+  @extend %font-sec;
+  @include font($size: 1.6rem, $height: 2.1rem, $weight: 300);
+
+  text-transform: uppercase;
+
+  &:last-child {
+    margin-left: 39px;
+  }
+}
+
+.link-button {
+  text-decoration: none;
+  color: $color-light;
+
+  &_visited, &:hover {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-underline-offset: 4px;
+  }
+}

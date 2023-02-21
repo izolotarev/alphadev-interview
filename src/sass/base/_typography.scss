@@ -1,0 +1,23 @@
+.heading-1 {
+  @extend %font-prim;
+  @include font($size: 5.3rem, $height: 6.9rem);
+  letter-spacing: 0rem;
+
+  color: $color-light;
+}
+
+.heading-2 {
+  @extend %font-sec;
+  @include font($size: 3.7rem, $height: 4.9rem);
+  letter-spacing: 0rem;
+
+  color: $color-light;
+}
+
+.heading-3 {
+  @extend %font-sec;
+  @include font($size: 3.7rem, $height: 4.9rem, $weight: 300);
+  letter-spacing: 0rem;
+
+  color: $color-light;
+}

@@ -1,0 +1,25 @@
+.logo__picture {
+  display: inline-block;
+
+  width: 50px;
+  height: 62px;
+  background-image: url("../../assets/svg/logo.svg");
+
+}
+
+.logo__wrapper {
+  margin-left: 14px;
+  padding-top: 3px;
+}
+
+.logo__name-main {
+  @extend %font-prim;
+  @include font($size: 2.6rem, $height: 3.4rem);
+
+  color: $color-light;
+}
+
+.logo__name-sec {
+  margin-top: 2px;
+  color: $color-light;
+}
