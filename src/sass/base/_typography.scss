@@ -8,16 +8,15 @@
 
 .heading-2 {
   @extend %font-sec;
-  @include font($size: 3.7rem, $height: 4.9rem);
-  letter-spacing: 0rem;
+  @include font($size: 3.7rem, $height: 4.9rem, $weight: normal);
 
   color: $color-light;
 }
 
 .heading-3 {
   @extend %font-sec;
-  @include font($size: 3.7rem, $height: 4.9rem, $weight: 300);
+  @include font($size: 2rem, $height: 2.6rem, $weight: 300);
   letter-spacing: 0rem;
 
-  color: $color-light;
+  color: $color-white;
 }

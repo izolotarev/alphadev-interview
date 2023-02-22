@@ -3,10 +3,14 @@
 @import "abstract/placeholders";
 @import "base/typography";
 @import "base/base";
+@import "base/root";
 @import "layouts/wrapper";
+@import "layouts/columns";
 @import "layouts/header";
 @import "base/logo";
 @import "components/navigation";
 @import "components/user-block";
 @import "components/forum";
+@import "components/speakers";
+@import "layouts/footer";
 

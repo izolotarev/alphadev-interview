@@ -1,9 +1,13 @@
 .forum {
-  background-color: $color-dark;
-  padding: 68px;
-  background-image: url("../../assets/img/unsplash_e4uXd7vMoxU.jpg");
+  background-image: url("../../../public/assets/img/background.jpg");
+  background-color: $color-dark-background;;
   background-repeat: no-repeat;
   background-position: 95% 0%;
+}
+
+.forum__wrapper {
+  padding-top: 68px;
+  padding-bottom: 400px;
 }
 
 .forum__heading-main {

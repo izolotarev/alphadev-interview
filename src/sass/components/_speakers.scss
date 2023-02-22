@@ -1,0 +1,41 @@
+.speakers {
+  padding: 76px 0 297px 0;
+  background-color: $color-dark-background;
+}
+
+.speakers__person {
+  margin-bottom: 46px;
+}
+
+.speakers__title {
+  margin-bottom: 70px;
+}
+
+.speakers__person-img {
+  margin-bottom: 30px;
+}
+
+.speakers__name {
+  margin-bottom: 10px;
+}
+
+.speakers__line {
+  margin-bottom: 10px;
+
+  width: 243px;
+  height: 3px;
+  background-color: $color-purple;
+}
+
+.speakers__person-desc {
+  margin-bottom: 15px;
+
+  @extend %font-sec;
+  @include font($size: 1.6rem, $height: 2.1rem, $weight: 200);
+}
+
+.speakers__detailed {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  color: $color-white;
+}

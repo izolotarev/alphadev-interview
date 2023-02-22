@@ -1,14 +1,11 @@
 .header {
   background: $color-dark;
   padding: 12rem 0;
+  background-color: $color-dark-background;
 }
 
 .header__wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.header__logo {
-  display: flex;
 }

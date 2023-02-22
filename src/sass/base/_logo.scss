@@ -1,9 +1,13 @@
+.logo {
+  display: flex;
+}
+
 .logo__picture {
   display: inline-block;
 
   width: 50px;
   height: 62px;
-  background-image: url("../../assets/svg/logo.svg");
+  background-image: url("../../../public/assets/svg/logo.svg");
 
 }
 
