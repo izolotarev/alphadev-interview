@@ -8,6 +8,14 @@
 .forum__wrapper {
   padding-top: 68px;
   padding-bottom: 400px;
+
+  @media (max-width: 832px) {
+    padding-bottom: 200px;
+  }
+
+  @media (max-width: 454px) {
+    padding-bottom: 50px;
+  }
 }
 
 .forum__heading-main {
@@ -17,6 +25,10 @@
 .forum__heading-sec {
   width: 740px;
   margin-bottom: 80px;
+
+  @media (max-width: 768px) {
+    width: auto;
+  }
 }
 
 .forum__description {
@@ -25,8 +37,16 @@
 
   @extend %font-sec;
   @include font($size: 2rem, $height: 2.6rem, $weight: 300);
+
+  @media (max-width: 940px) {
+    width: auto;
+  }
 }
 
 .forum__tooltip {
   margin-bottom: 154px;
+
+  @media (max-width: 400px) {
+    margin-bottom: 60px;
+  }
 }

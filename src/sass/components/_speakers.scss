@@ -1,6 +1,22 @@
 .speakers {
   padding: 76px 0 297px 0;
   background-color: $color-dark-background;
+
+  @media (max-width: 1043px) {
+    padding-bottom: 100px;
+  }
+}
+
+.speakers-wrapper {
+  > * {
+    @media (max-width: 1080px) {
+      flex-basis: 48.2%;
+    }
+
+    @media (max-width: 553px) {
+      flex-basis: 100%;
+    }
+  }
 }
 
 .speakers__person {
@@ -13,6 +29,11 @@
 
 .speakers__person-img {
   margin-bottom: 30px;
+
+  @media (max-width: 1080px) {
+    display: block;
+    width: 100%;
+  }
 }
 
 .speakers__name {

@@ -1,6 +1,10 @@
 .navigation__list {
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 668px) {
+    display: block;
+  }
 }
 
 .navigation__item {
@@ -13,6 +17,10 @@
 
   &:last-child {
     margin-left: 39px;
+  }
+
+  @media (max-width: 668px) {
+    margin-bottom: 5px;
   }
 }
 

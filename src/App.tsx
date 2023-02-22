@@ -12,7 +12,7 @@ function App() {
               <div className="logo__name-sec">Forum</div>
             </div>
           </div>
-          <nav className="navigation">
+          <nav className="navigation header__navigation">
             <ul className="navigation__list">
               <li className="navigation__item">
                 <a href="#forum" className="link-button link-button_visited">

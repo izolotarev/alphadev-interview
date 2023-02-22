@@ -4,6 +4,10 @@
   letter-spacing: 0rem;
 
   color: $color-light;
+
+  @media (max-width: 668px) {
+    @include font($size: 3.3rem, $height: 4rem);
+  }
 }
 
 .heading-2 {
@@ -11,6 +15,10 @@
   @include font($size: 3.7rem, $height: 4.9rem, $weight: normal);
 
   color: $color-light;
+
+  @media (max-width: 516px) {
+    @include font($size: 3rem, $height: 3rem);
+  }
 }
 
 .heading-3 {
@@ -19,4 +27,8 @@
   letter-spacing: 0rem;
 
   color: $color-white;
+
+  @media (max-width: 516px) {
+    @include font($size: 1.6rem, $height: 3rem);
+  }
 }

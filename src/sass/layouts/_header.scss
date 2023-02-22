@@ -2,10 +2,36 @@
   background: $color-dark;
   padding: 12rem 0;
   background-color: $color-dark-background;
+
+  @media (max-width: 1024px) {
+    padding: 4rem 0;
+  }
+
+  @media (max-width: 668px) {
+    padding: 2rem 0;
+  }
 }
 
 .header__wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width: 668px) {
+    flex-direction: column;
+  }
 }
+
+.header__logo {
+  @media (max-width: 668px) {
+    margin-bottom: 10px;
+  }
+}
+
+.header__navigation {
+  @media (max-width: 668px) {
+    margin-bottom: 10px;
+  }
+}
+
+
